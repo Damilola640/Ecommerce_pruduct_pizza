@@ -34,6 +34,7 @@ DEBUG = False
 #ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['pizza-opqq.onrender.com', 'localhost', '127.0.0.1']
 
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -92,6 +93,8 @@ DATABASES = {
     }
 }
 
+
+
 AUTH_USER_MODEL = "accounts.CustomUser"
 
 # Password validation
@@ -144,8 +147,8 @@ REST_FRAMEWORK = {
     ],
 }
 
-import os
-
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
