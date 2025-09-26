@@ -32,7 +32,8 @@ SECRET_KEY = 'django-insecure-n=vucjw^wax4k$61^*rqgg!4)3k__tyk%x2yoic+j93$8a)k#4
 DEBUG = False
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['pizza-opqq.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['pizza-2w96.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
